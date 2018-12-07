@@ -117,6 +117,8 @@ for filename in os.listdir(directory):     #loop through files in user's dir
     output_df=output_df.append(xls_df)
     if gap_count>0:
         print ("Some stations contain gaps greater than 14 days, be sure to null the appropriate data")
+    else:
+        print ("No PZS gaps greater than 2 weeks in these files!!!")
                 
 #        print(PZS_test)
 

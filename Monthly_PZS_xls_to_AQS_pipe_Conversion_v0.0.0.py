@@ -69,7 +69,7 @@ def audit_path():
     frame.SetSize(0,0,200,50)
      
     # Create open file dialog
-    openFileDialog = wx.DirDialog(frame, "Choose directory with audit data", "",
+    openFileDialog = wx.DirDialog(frame, "Choose directory with Monthly PZS data", "",
                 wx.DD_DEFAULT_STYLE | wx.DD_DIR_MUST_EXIST)
      
     openFileDialog.ShowModal()
